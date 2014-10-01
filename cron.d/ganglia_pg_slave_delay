@@ -1,0 +1,6 @@
+HELL=/bin/sh
+PATH=/usr/local/sbin:/usr/local/bin:/sbin:/bin:/usr/sbin:/usr/bin
+
+ # m h dom mon dow user     command
+0-59 *  *   *   *  postgres /usr/share/ganglia/ganglia_pg_slave_delay.sh
+0-59 *  *   *   *  postgres sleep 30; /usr/share/ganglia/ganglia_pg_slave_delay.sh
