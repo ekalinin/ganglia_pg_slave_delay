@@ -13,8 +13,7 @@ $ make install
 Results
 -------
 
-![Pg Delay](https://raw.github.com/ekalinin/ganglia_pg_slave_delay/master/screenshot.png.png)
-
+![Pg Delay](https://raw.github.com/ekalinin/ganglia_pg_slave_delay/master/screenshot.png)
 
 How it works
 ------------
