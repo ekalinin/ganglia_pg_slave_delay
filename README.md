@@ -4,14 +4,16 @@ PostgreSQL Replication Delay in Ganglia
 Installation
 ------------
 
+Do the follow on standby server:
+
 ```bash
 $ git clone https://github.com/ekalinin/ganglia_pg_slave_delay
 $ cd ganglia_pg_slave_delay
 $ make install
 ```
 
-Results
--------
+Result
+------
 
 ![Pg Delay](https://raw.github.com/ekalinin/ganglia_pg_slave_delay/master/screenshot.png)
 
