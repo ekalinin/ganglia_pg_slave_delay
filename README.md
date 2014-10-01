@@ -27,3 +27,9 @@ SELECT round(extract(epoch from (now() - pg_last_xact_replay_timestamp())))
 ```
 
 And posts results into ganglia via gmetric.
+
+LICENSE
+-------
+
+See [LICENSE](https://github.com/ekalinin/ganglia_pg_slave_delay/blob/master/LICENSE)
+file.
